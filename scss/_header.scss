@@ -1,0 +1,18 @@
+#page_header {
+  min-height: 10vh;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+#logo {
+  width: 80px;
+  cursor: pointer;
+}
+
+#hamburger {
+  justify-self: end;
+  width: 25px;
+  height: 25px;
+}

@@ -1,10 +1,12 @@
-$font-dark: #1111;
-$font-light: #404040;
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  color: $font-dark;
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  color: #111;
 }
