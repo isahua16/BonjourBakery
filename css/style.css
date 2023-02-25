@@ -52,7 +52,7 @@ img {
   width: 80%;
 }
 #hero_text > a {
-  width: 200px;
+  width: 240px;
   color: #404040;
 }
 
@@ -92,6 +92,11 @@ img {
   border-style: solid;
   padding: 15px 40px;
   border-radius: 10px;
+}
+
+#specialities {
+  margin-top: 48px;
+  display: grid;
 }
 
 /*# sourceMappingURL=style.css.map */
