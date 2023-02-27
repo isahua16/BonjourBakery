@@ -35,7 +35,7 @@ img {
   letter-spacing: 4px;
 }
 
-.title {
+#main_title {
   font-family: "Montserrat", sans-serif;
   font-size: 2.2rem;
   font-weight: 800;
@@ -71,20 +71,28 @@ img {
   margin-top: 48px;
   display: grid;
   justify-items: center;
+  padding-bottom: 48px;
   > a {
+    width: 80%;
+    max-width: 300px;
     color: white;
   }
 }
 
-.grid_container {
+.container {
+  width: 100%;
   display: grid;
+}
+
+.cont_one {
   place-items: center;
   gap: 20px;
   transform: translateY(-50px);
 }
 
 .specialities_card {
-  width: 320px;
+  width: 90%;
+  max-width: 325px;
   display: grid;
   align-items: center;
   background-color: white;
@@ -105,5 +113,68 @@ img {
   > p {
     margin-top: 25px;
     font-style: italic;
+  }
+  > h5 {
+    margin-top: 25px;
+    color: #a89f95;
+    font-size: 1.5rem;
+  }
+  > a {
+    margin-top: 20px;
+    padding: 10px 30px;
+    justify-self: center;
+    width: 180px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #7f493e;
+  }
+}
+
+#values {
+  width: 100%;
+  background-color: #a79f95;
+  display: grid;
+  place-items: center;
+  padding-bottom: 48px;
+  > h2 {
+    margin-top: 60px;
+    color: white;
+  }
+  > a {
+    margin-top: 48px;
+    width: 200px;
+    color: white;
+  }
+}
+.title {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cont_two {
+  place-items: center;
+  margin-top: 48px;
+  gap: 48px;
+}
+
+.values_card {
+  place-items: center;
+  text-align: center;
+  display: grid;
+  width: 90%;
+  max-width: 325px;
+  color: white;
+  gap: 20px;
+  border-bottom: 0.5px solid white;
+  padding-bottom: 30px;
+  > h3 {
+    color: white;
+  }
+  > p {
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.6;
   }
 }
