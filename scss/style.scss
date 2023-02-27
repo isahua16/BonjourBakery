@@ -67,6 +67,43 @@ img {
 }
 
 #specialities {
+  background-color: #a79f95;
   margin-top: 48px;
   display: grid;
+  justify-items: center;
+  > a {
+    color: white;
+  }
+}
+
+.grid_container {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  transform: translateY(-50px);
+}
+
+.specialities_card {
+  width: 320px;
+  display: grid;
+  align-items: center;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+  > img {
+    justify-self: center;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  > h4 {
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
+  }
+  > p {
+    margin-top: 25px;
+    font-style: italic;
+  }
 }
