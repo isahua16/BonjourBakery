@@ -94,14 +94,14 @@ img {
   border-radius: 10px;
 }
 
-#specialities {
+#breads {
   background-color: #a79f95;
   margin-top: 48px;
   display: grid;
   justify-items: center;
   padding-bottom: 48px;
 }
-#specialities > a {
+#breads > a {
   width: 80%;
   max-width: 300px;
   color: white;
@@ -118,7 +118,7 @@ img {
   transform: translateY(-50px);
 }
 
-.specialities_card {
+.breads_card {
   width: 90%;
   max-width: 325px;
   display: grid;
@@ -127,28 +127,28 @@ img {
   padding: 30px 20px;
   border-radius: 20px;
 }
-.specialities_card > img {
+.breads_card > img {
   justify-self: center;
   width: 180px;
   height: 180px;
   object-fit: cover;
   border-radius: 50%;
 }
-.specialities_card > h4 {
+.breads_card > h4 {
   margin-top: 20px;
   font-family: "Raleway", sans-serif;
   font-size: 1.25rem;
 }
-.specialities_card > p {
+.breads_card > p {
   margin-top: 25px;
   font-style: italic;
 }
-.specialities_card > h5 {
+.breads_card > h5 {
   margin-top: 25px;
   color: #a89f95;
   font-size: 1.5rem;
 }
-.specialities_card > a {
+.breads_card > a {
   margin-top: 20px;
   padding: 10px 30px;
   justify-self: center;
