@@ -88,9 +88,11 @@ img {
   place-items: center;
   gap: 20px;
   transform: translateY(-50px);
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
 }
 
 .breads_card {
+  height: 492px;
   width: 90%;
   max-width: 325px;
   display: grid;
@@ -229,8 +231,11 @@ img {
     gap: 30px;
     padding-bottom: 200px;
     grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
-    > img {
+    img {
       max-width: 168px;
+    }
+    > a {
+      cursor: pointer;
     }
   }
 }
