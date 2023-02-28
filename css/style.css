@@ -231,7 +231,7 @@ img {
 }
 
 #resellers {
-  min-height: 80vh;
+  min-height: 85vh;
   background-color: #d7d7d7;
   padding-top: 48px;
   width: 100%;
@@ -240,18 +240,24 @@ img {
   background-image: url(/images/bread-bg-portrait.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
 }
 #resellers > h2 {
-  width: 90%;
+  font-size: 1.5rem;
+  width: 84%;
   text-align: center;
 }
 #resellers > div {
-  padding-top: 48px;
+  padding-top: 30px;
   width: 40%;
   display: grid;
-  justify-items: center;
-  gap: 25px;
+  place-items: center;
+  gap: 30px;
   padding-bottom: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+}
+#resellers > div > img {
+  max-width: 168px;
 }
 
 /*# sourceMappingURL=style.css.map */
