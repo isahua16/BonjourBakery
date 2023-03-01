@@ -8,13 +8,14 @@ img {
 
 #hero {
   margin-top: 48px;
-  min-height: 80vh;
-  width: 90%;
+  min-height: 70vh;
+  width: 100%;
   display: grid;
   place-items: center;
 }
 
 #hero_text {
+  width: 90%;
   display: grid;
   align-items: center;
   gap: 24px;
@@ -64,6 +65,14 @@ img {
   border-style: solid;
   padding: 15px 40px;
   border-radius: 10px;
+}
+
+#hero_image {
+  object-fit: cover;
+  min-height: 400px;
+  margin-right: 64px;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
 }
 
 #breads {
@@ -217,7 +226,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  grid-template-rows: 300px auto auto;
+  padding-top: 300px;
   padding-bottom: 68px;
   > h2 {
     align-self: end;
