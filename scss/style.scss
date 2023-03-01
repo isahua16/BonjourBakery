@@ -71,11 +71,12 @@ img {
   object-fit: cover;
   min-height: 400px;
   margin-right: 64px;
-  border-top-right-radius: 1000px;
-  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 #breads {
+  width: 100%;
   background-color: #a79f95;
   margin-top: 48px;
   display: grid;

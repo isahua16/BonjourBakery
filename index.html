@@ -19,14 +19,51 @@
       rel="stylesheet"
     />
     <link rel=stylesheet href=/css/style.css />
-    <title>BonjourBakery</title>
+    <title>Boulangerie Bonjour Bakery</title>
   </head>
   <body>
     <header id="page_header">
+      <input
+        type="radio"
+        name="menu"
+        id="menu_open"
+        class="menu_radio_button"
+      />
+      <input
+        type="radio"
+        name="menu"
+        id="menu_close"
+        class="menu_radio_button"
+      />
+
       <a href="#"
         ><img id="logo" src="/images/logo.png" alt="Bonjour Bakery Logo"
       /></a>
-      <img id="hamburger" src="/images/menu.svg" alt="Hamburger menu" />
+
+      <label class="mobile_menu_btn" for="menu_open">
+        <img
+          id="hamburger"
+          class="hoverable"
+          src="/images/menu.svg"
+          alt="Hamburger menu"
+        />
+      </label>
+
+      <section id="mobile_menu">
+        <label class="mobile_menu_btn" for="menu_close">
+          <img
+            class="hoverable"
+            src="/images/x-mark.svg"
+            alt="Button to close the navigation menu"
+          />
+        </label>
+        <nav>
+          <a href="/index.html">HOME</a>
+          <a href="/pages/products.html">PRODUCTS</a>
+          <a href="/pages/about.html">ABOUT</a>
+          <a href="/pages/contact.html">CONTACT</a>
+        </nav>
+      </section>
     </header>
 
     <section id="hero">
