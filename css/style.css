@@ -55,6 +55,11 @@ body {
   gap: 30px;
   text-align: center;
 }
+.cont_three a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #111;
+}
 .cont_three h6 {
   font-size: 1.25rem;
   font-family: "Raleway", sans-serif;
@@ -63,6 +68,20 @@ body {
 .cont_three p {
   margin-top: 10px;
   font-size: 0.875rem;
+}
+
+#order {
+  background-color: white;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: grid;
+  border: 2px solid #111;
+  padding: 10px;
+  border-radius: 30px;
+}
+#order > img {
+  width: 30px;
 }
 
 img {

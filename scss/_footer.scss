@@ -22,6 +22,11 @@
   place-items: center;
   gap: 30px;
   text-align: center;
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #111;
+  }
   h6 {
     font-size: 1.25rem;
     font-family: "Raleway", sans-serif;
@@ -30,5 +35,19 @@
   p {
     margin-top: 10px;
     font-size: 0.875rem;
+  }
+}
+
+#order {
+  background-color: white;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: grid;
+  border: 2px solid #111;
+  padding: 10px;
+  border-radius: 30px;
+  > img {
+    width: 30px;
   }
 }
