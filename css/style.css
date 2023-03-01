@@ -98,6 +98,8 @@ body {
 }
 
 .cont_three {
+  width: 100%;
+  display: grid;
   place-items: center;
   gap: 30px;
   text-align: center;
@@ -218,12 +220,9 @@ img {
   color: white;
 }
 
-.container {
+.cont_one {
   width: 100%;
   display: grid;
-}
-
-.cont_one {
   place-items: center;
   gap: 20px;
   transform: translateY(-50px);
@@ -296,6 +295,8 @@ img {
 }
 
 .cont_two {
+  width: 100%;
+  display: grid;
   place-items: center;
   margin-top: 48px;
   gap: 48px;
