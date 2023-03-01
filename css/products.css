@@ -133,4 +133,10 @@ body {
   width: 30px;
 }
 
+body {
+  background-image: url(/images/bg-dark.png);
+  background-position-x: 85%;
+  background-position-y: 30%;
+}
+
 /*# sourceMappingURL=products.css.map */
