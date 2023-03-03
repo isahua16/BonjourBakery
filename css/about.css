@@ -195,7 +195,7 @@ iframe {
 }
 #story > a {
   color: white;
-  margin-bottom: 48px;
+  transform: translateY(-75px);
 }
 
 .container {
