@@ -140,10 +140,14 @@ img {
 .product_section {
   width: 100%;
   background-color: #a79f95;
-  margin-top: 48px;
   display: grid;
   justify-items: center;
   padding-bottom: 48px;
+}
+
+.cover_img {
+  min-height: 300px;
+  object-fit: cover;
 }
 
 .container {
