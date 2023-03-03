@@ -155,45 +155,83 @@ iframe {
 }
 
 #family {
-  margin-top: 150px;
+  margin-top: 48px;
+  margin-bottom: 200px;
   width: 100%;
-  background-color: #a79f95;
   min-height: 60vh;
   display: grid;
   justify-items: center;
 }
 #family > img {
-  transform: translateY(-75px);
   border-radius: 20px;
   width: 325px;
 }
+#family > h1 {
+  margin-top: 36px;
+  font-size: 1.75rem;
+  font-family: "Montserrat", sans-serif;
+}
 
-#family_content {
+#family_text {
+  margin-top: 36px;
   display: grid;
+  justify-items: center;
+  width: 85%;
+  line-height: 1.6;
+}
+#family_text > p:nth-child(2) {
+  margin-top: 24px;
+}
+#family_text > a {
+  margin-top: 48px;
+  color: #404040;
 }
 
 #story {
-  padding-top: 64px;
-  padding-bottom: 64px;
   width: 100%;
   display: grid;
   place-items: center;
   background-color: #a79f95;
 }
+#story > a {
+  color: white;
+  margin-bottom: 48px;
+}
 
-#flour {
+.container {
+  display: grid;
+  place-items: center;
+  gap: 48px;
+  transform: translateY(-150px);
+}
+
+.story_card {
   background-color: white;
-  height: 550px;
   width: 90%;
   gap: 25px;
-  max-width: 325px;
   display: grid;
   align-items: center;
-  background-color: white;
-  padding: 20px 20px;
+  padding: 20px;
   border-radius: 20px;
 }
-#flour > p {
+.story_card > img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#flour1 {
+  height: 550px;
+}
+#flour1 > p {
+  line-height: 1.8;
+}
+
+#yvan > img {
+  object-position: 20% 50%;
+}
+#yvan > p {
   line-height: 1.8;
 }
 
