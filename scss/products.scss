@@ -5,16 +5,38 @@
 img {
   width: 100%;
 }
+
+.cat_menu_btn {
+  cursor: pointer;
+}
+
+.hoverable:hover {
+  background-color: #7f493e;
+  color: white;
+}
+#show_cheese:checked ~ .cheese {
+  background-color: #7f493e;
+  color: white;
+}
+
+#show_bread:checked ~ .bread {
+  background-color: #7f493e;
+  color: white;
+}
+
+.cat_radio_button {
+  display: none;
+}
+
 .product_section {
   width: 100%;
   background-color: #a79f95;
-  display: grid;
   justify-items: center;
   padding-bottom: 48px;
 }
 
 .cover_img {
-  min-height: 300px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -68,4 +90,20 @@ img {
     text-decoration: none;
     background-color: #7f493e;
   }
+}
+
+#bread_section {
+  display: grid;
+}
+
+#cheese_section {
+  display: none;
+}
+
+#show_bread:checked ~ #cheese_section {
+  display: grid;
+}
+
+#show_bread:checked ~ #bread_section {
+  display: none;
 }
