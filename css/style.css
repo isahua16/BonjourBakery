@@ -370,7 +370,6 @@ img {
   display: grid;
   place-items: center;
   gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
 }
 #resellers > div img {
   max-width: 168px;
