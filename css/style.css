@@ -203,8 +203,8 @@ img {
   object-position: 30% 50%;
   min-height: 400px;
   margin-right: 64px;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
 }
 
 #breads {

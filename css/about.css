@@ -156,9 +156,8 @@ iframe {
 
 #family {
   margin-top: 48px;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
   width: 100%;
-  min-height: 60vh;
   display: grid;
   justify-items: center;
 }
@@ -171,6 +170,9 @@ iframe {
   font-size: 1.75rem;
   font-family: "Montserrat", sans-serif;
 }
+#family > a {
+  color: #404040;
+}
 
 #family_text {
   margin-top: 36px;
@@ -181,10 +183,7 @@ iframe {
 }
 #family_text > p:nth-child(2) {
   margin-top: 24px;
-}
-#family_text > a {
-  margin-top: 48px;
-  color: #404040;
+  margin-bottom: 36px;
 }
 
 #story {
@@ -208,10 +207,11 @@ iframe {
 .story_card {
   background-color: white;
   width: 90%;
+  max-width: 400px;
   gap: 25px;
   display: grid;
-  align-items: center;
-  padding: 20px;
+  justify-items: center;
+  padding: 20px 20px;
   border-radius: 20px;
 }
 .story_card > img {
@@ -221,9 +221,6 @@ iframe {
   border-radius: 20px;
 }
 
-#flour1 {
-  height: 550px;
-}
 #flour1 > p {
   line-height: 1.8;
 }
