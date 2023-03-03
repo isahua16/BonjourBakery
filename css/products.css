@@ -133,10 +133,69 @@ body {
   width: 30px;
 }
 
-body {
-  background-image: url(/images/bg-dark.png);
-  background-position-x: 85%;
-  background-position-y: 30%;
+img {
+  width: 100%;
+}
+
+.product_section {
+  width: 100%;
+  background-color: #a79f95;
+  margin-top: 48px;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 48px;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  transform: translateY(-50px);
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+}
+
+.product_card {
+  height: 500px;
+  width: 90%;
+  max-width: 325px;
+  display: grid;
+  align-items: center;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.product_card > img {
+  justify-self: center;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.product_card > h4 {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+}
+.product_card > p {
+  margin-top: 25px;
+  font-style: italic;
+}
+.product_card > h5 {
+  margin-top: 25px;
+  color: #a89f95;
+  font-size: 1.5rem;
+}
+.product_card > a {
+  margin-top: 20px;
+  padding: 10px 30px;
+  justify-self: center;
+  width: 180px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #7f493e;
 }
 
 /*# sourceMappingURL=products.css.map */
