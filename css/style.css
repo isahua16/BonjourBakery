@@ -134,6 +134,14 @@ body {
   width: 30px;
 }
 
+@media only screen and (min-width: 1000px) {
+  #page_footer {
+    min-height: 50vh;
+  }
+  .cont_three {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 img {
   width: 100%;
 }
@@ -223,17 +231,16 @@ img {
 }
 
 .cont_one {
-  width: 100%;
+  width: 90%;
   display: grid;
   place-items: center;
-  gap: 20px;
+  gap: 10px;
   transform: translateY(-50px);
 }
 
 .breads_card {
-  height: 492px;
-  width: 90%;
-  max-width: 325px;
+  height: 550px;
+  max-width: 425px;
   display: grid;
   align-items: center;
   background-color: white;
@@ -253,6 +260,7 @@ img {
   font-size: 1.25rem;
 }
 .breads_card > p {
+  align-self: start;
   margin-top: 25px;
   font-style: italic;
 }
@@ -307,8 +315,7 @@ img {
   place-items: center;
   text-align: center;
   display: grid;
-  width: 90%;
-  max-width: 325px;
+  width: 80%;
   color: white;
   gap: 20px;
   border-bottom: 0.5px solid white;
@@ -345,12 +352,19 @@ img {
   color: #404040;
 }
 
+#cheese_image {
+  width: 90%;
+  border-radius: 20px;
+  margin-bottom: 48px;
+  align-self: center;
+}
+
 #resellers {
-  min-height: 100vh;
+  min-height: 80vh;
   background-color: #d7d7d7;
   width: 100%;
   display: grid;
-  gap: 24px;
+  gap: 30px;
   place-items: center;
   background-image: url(/images/bread-bg-portrait.jpeg);
   background-repeat: no-repeat;
@@ -379,6 +393,64 @@ img {
 }
 #resellers > a {
   color: #404040;
+}
+
+@media only screen and (min-width: 654px) {
+  .cont_one {
+    grid-template-columns: 1fr 1fr;
+  }
+  .breads_card {
+    max-width: 500px;
+  }
+  #resellers > h2 {
+    font-size: 2rem;
+  }
+  #resellers > div {
+    width: 80%;
+    max-width: 600px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #resellers {
+    padding-top: 400px;
+    background-position: center top;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #hero {
+    min-height: 40vh;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+  #hero_image {
+    min-height: 500px;
+    order: -1;
+  }
+  #cheese {
+    grid-template-columns: 1fr 1fr;
+  }
+  #cheese_image {
+    object-fit: cover;
+    height: 90%;
+    margin: 0;
+  }
+  #resellers {
+    min-height: 50vh;
+    padding: 0;
+    padding-left: 30vw;
+    background-image: url(/images/bread-bg-landscape.jpeg);
+    background-position: left;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .cont_one {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .breads_card {
+    grid-template-rows: 180px 60px 100px 80px 50px;
+    height: 550px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

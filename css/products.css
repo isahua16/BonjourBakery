@@ -134,6 +134,14 @@ body {
   width: 30px;
 }
 
+@media only screen and (min-width: 1000px) {
+  #page_footer {
+    min-height: 50vh;
+  }
+  .cont_three {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 img {
   width: 100%;
 }
