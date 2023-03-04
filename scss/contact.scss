@@ -61,6 +61,7 @@ main {
 }
 
 #g_map {
+  border-radius: 20px;
   width: 100%;
   min-height: 50vh;
 }
@@ -70,20 +71,20 @@ main {
   margin-top: 48px;
   display: grid;
   place-items: center;
-  gap: 24px;
+  row-gap: 12px;
   margin-bottom: 48px;
 }
 
 .info_pane {
   height: 160px;
   width: 90%;
-  max-width: 325px;
+  max-width: 525px;
   background-color: white;
   display: grid;
-  align-items: center;
+  place-items: center;
   border-radius: 20px;
   padding: 30px;
-  gap: 18px;
+  text-align: center;
   > a {
     text-decoration: none;
     color: #111;
@@ -93,4 +94,26 @@ main {
 .icon {
   width: 20px;
   margin-right: 10px;
+}
+
+@media only screen and (min-width: 860px) {
+  #info {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .info_pane {
+    align-items: start;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #contact {
+    align-items: start;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #text {
+    padding-bottom: 25vh;
+  }
 }
