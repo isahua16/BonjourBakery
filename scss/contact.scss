@@ -1,3 +1,45 @@
 @use "general";
 @use "header";
 @use "footer";
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/images/contact.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+#contact {
+  display: grid;
+  place-items: center;
+}
+
+.contact_pane {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#info {
+  display: grid;
+  place-items: center;
+  gap: 24px;
+}
+
+.info_pane {
+  width: 100%;
+  background-color: white;
+  display: grid;
+  align-items: center;
+  border-radius: 20px;
+  padding: 30px;
+  gap: 18px;
+  > a {
+    text-decoration: none;
+    color: #111;
+  }
+}
