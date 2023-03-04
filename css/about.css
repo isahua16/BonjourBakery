@@ -172,7 +172,7 @@ iframe {
 }
 #family > img {
   border-radius: 20px;
-  width: 325px;
+  width: 85%;
 }
 #family > h1 {
   margin-top: 36px;
@@ -201,30 +201,31 @@ iframe {
   place-items: center;
   background-color: #a79f95;
 }
-#story > a {
+
+#about_btn {
   color: white;
-  transform: translateY(-75px);
 }
 
 .container {
+  width: 100%;
   display: grid;
   place-items: center;
   gap: 48px;
   transform: translateY(-150px);
 }
 .container > h1 {
+  width: 85%;
+  text-align: left;
   margin-top: 36px;
   font-size: 1.75rem;
   font-family: "Montserrat", sans-serif;
   color: white;
-  width: 90%;
-  max-width: 400px;
 }
 
 .story_card {
+  width: 85%;
+  max-width: 800px;
   background-color: white;
-  width: 90%;
-  max-width: 400px;
   gap: 25px;
   display: grid;
   justify-items: center;
@@ -232,8 +233,7 @@ iframe {
   border-radius: 20px;
 }
 .story_card > img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -242,11 +242,43 @@ iframe {
   line-height: 1.8;
 }
 
-#yvan > img {
-  object-position: 20% 50%;
-}
 #yvan > p {
   line-height: 1.8;
+}
+
+@media only screen and (min-width: 630px) {
+  .container > h1 {
+    width: 85%;
+    margin-top: 96px;
+    margin-bottom: 48px;
+    font-size: 3rem;
+  }
+  iframe {
+    min-height: 60vh;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  iframe {
+    min-height: 75vh;
+  }
+  #story {
+    min-height: 80vh;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container {
+    transform: translateY(0%);
+  }
+  #container_one {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  #container_two {
+    margin-bottom: 48px;
+  }
+  #yvan > img {
+    min-height: 500px;
+    object-position: 30% 50%;
+  }
 }
 
 /*# sourceMappingURL=about.css.map */
