@@ -10,22 +10,38 @@ img {
   cursor: pointer;
 }
 
+.cat_radio_button {
+  display: none;
+}
 .hoverable:hover {
   background-color: #7f493e;
   color: white;
 }
-#show_cheese:checked ~ .cheese {
-  background-color: #7f493e;
-  color: white;
+
+#filter {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
 }
 
-#show_bread:checked ~ .bread {
-  background-color: #7f493e;
-  color: white;
+label {
+  padding: 10px 30px;
+  font-weight: 600;
 }
 
-.cat_radio_button {
-  display: none;
+#show_cheese:checked ~ #filter > .cheese {
+  padding: 10px 30px;
+  color: white;
+  font-weight: 600;
+  background-color: #7f493e;
+}
+
+#show_bread:checked ~ #filter > .bread {
+  padding: 10px 30px;
+  color: white;
+  font-weight: 600;
+  background-color: #7f493e;
 }
 
 .product_section {
