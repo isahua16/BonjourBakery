@@ -263,7 +263,7 @@ img {
   }
 }
 
-@media only screen and (min-width: px) {
+@media only screen and (min-width: 654px) {
   .cont_one {
     grid-template-columns: 1fr 1fr;
   }
@@ -295,7 +295,6 @@ img {
   #hero {
     min-height: 40vh;
     grid-template-columns: 1fr 1fr;
-    align-items: start;
   }
 
   #hero_image {
@@ -304,7 +303,6 @@ img {
   }
 
   #cheese {
-    align-items: start;
     grid-template-columns: 1fr 1fr;
   }
 
