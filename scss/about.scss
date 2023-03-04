@@ -64,6 +64,7 @@ iframe {
 
 #about_btn {
   color: white;
+  transform: translateY(48px);
 }
 
 .container {
@@ -130,8 +131,12 @@ iframe {
     min-height: 75vh;
   }
 
+  #family {
+    margin-bottom: 48px;
+  }
+
   #story {
-    min-height: 80vh;
+    min-height: 70vh;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -153,5 +158,9 @@ iframe {
       min-height: 500px;
       object-position: 30% 50%;
     }
+  }
+
+  #about_btn {
+    transform: translateY(0);
   }
 }
