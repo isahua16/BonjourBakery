@@ -21,11 +21,13 @@ img {
 #filter {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   place-items: center;
+  grid-template-columns: 1fr 1fr;
 }
 
 #filter > label {
+  width: 200px;
+  text-align: center;
   padding: 10px 30px;
   font-weight: 600;
 }
@@ -57,7 +59,8 @@ img {
 }
 
 .container {
-  width: 100%;
+  max-width: 870px;
+  width: 90%;
   display: grid;
   place-items: center;
   gap: 20px;
@@ -65,11 +68,12 @@ img {
 }
 
 .product_card {
-  height: 500px;
-  width: 90%;
-  max-width: 325px;
+  height: 580px;
+  width: 100%;
+  max-width: 425px;
   display: grid;
   align-items: center;
+  grid-template-rows: 180px 60px 120px 100px 80px;
   background-color: white;
   padding: 20px 20px;
   border-radius: 20px;
@@ -88,6 +92,7 @@ img {
   > p {
     margin-top: 25px;
     font-style: italic;
+    align-self: start;
   }
   > h5 {
     margin-top: 25px;
@@ -121,4 +126,17 @@ img {
 
 #show_bread:checked ~ #bread_section {
   display: none;
+}
+
+@media only screen and (min-width: 654px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .container {
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

@@ -83,6 +83,10 @@ img {
   display: grid;
   justify-items: center;
   padding-bottom: 48px;
+  > img {
+    object-fit: cover;
+    max-height: 50vh;
+  }
   > a {
     width: 80%;
     max-width: 300px;
@@ -142,6 +146,7 @@ img {
 }
 
 #values {
+  min-height: 70vh;
   width: 100%;
   background-color: #a79f95;
   display: grid;
@@ -190,6 +195,7 @@ img {
 }
 
 #cheese {
+  min-height: 45vh;
   width: 100%;
   display: grid;
   place-items: center;
@@ -257,7 +263,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 654px) {
+@media only screen and (min-width: px) {
   .cont_one {
     grid-template-columns: 1fr 1fr;
   }
@@ -298,6 +304,7 @@ img {
   }
 
   #cheese {
+    align-items: start;
     grid-template-columns: 1fr 1fr;
   }
 
