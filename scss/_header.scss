@@ -1,15 +1,4 @@
-#mobile_menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  display: grid;
-  justify-items: center;
-  background-color: rgba(0, 0, 0, 0.932);
-  width: 100%;
-  height: 100%;
-  grid-template-rows: 10vh auto;
-  transition: transform ease-in-out 0.3s;
+
 
   > label {
     width: 57px;
@@ -54,6 +43,20 @@
 
 .menu_radio_button {
   display: none;
+}
+
+#mobile_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: grid;
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0.932);
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 10vh auto;
+  transition: transform ease-in-out 0.3s;
 }
 
 #menu_open:checked ~ #mobile_menu {
