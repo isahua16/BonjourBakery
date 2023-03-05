@@ -1,5 +1,4 @@
 #mobile_menu {
-  transform: translateX(-110%);
   position: fixed;
   top: 0;
   left: 0;
@@ -58,7 +57,7 @@
 }
 
 #menu_open:checked ~ #mobile_menu {
-  transform: translateX(0%);
+  transform: translateX(0%) !important;
 }
 
 .mobile_menu_btn {
