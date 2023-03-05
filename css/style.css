@@ -142,10 +142,6 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-img {
-  max-width: 100%;
-}
-
 #hero {
   margin-top: 48px;
   min-height: 70vh;
@@ -213,8 +209,8 @@ img {
   object-position: 30% 50%;
   min-height: 400px;
   margin-right: 64px;
-  border-top-right-radius: 100%;
-  border-bottom-right-radius: 100%;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
 }
 
 #breads {
@@ -396,6 +392,7 @@ img {
   gap: 30px;
 }
 #resellers > div img {
+  width: 100%;
   max-width: 168px;
 }
 #resellers > div > a {
