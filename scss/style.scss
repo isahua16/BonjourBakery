@@ -3,7 +3,7 @@
 @use "footer";
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 #hero {
@@ -74,8 +74,8 @@ img {
   object-position: 30% 50%;
   min-height: 400px;
   margin-right: 64px;
-  border-top-right-radius: 1000px;
-  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
 }
 
 #breads {
@@ -107,6 +107,7 @@ img {
 }
 
 .breads_card {
+  width: 100%;
   height: 550px;
   max-width: 425px;
   display: grid;
