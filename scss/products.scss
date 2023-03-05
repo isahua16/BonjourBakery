@@ -13,6 +13,7 @@ img {
 .cat_radio_button {
   display: none;
 }
+
 .hoverable:hover {
   background-color: #7f493e;
   color: white;
@@ -25,21 +26,21 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
-#filter > label {
+#filter>label {
   width: 200px;
   text-align: center;
   padding: 10px 30px;
   font-weight: 600;
 }
 
-#show_cheese:checked ~ #filter > .cheese {
+#show_cheese:checked~#filter>.cheese {
   padding: 10px 30px;
   color: white;
   font-weight: 600;
   background-color: #7f493e;
 }
 
-#show_bread:checked ~ #filter > .bread {
+#show_bread:checked~#filter>.bread {
   padding: 10px 30px;
   color: white;
   font-weight: 600;
@@ -77,29 +78,34 @@ img {
   background-color: white;
   padding: 20px 20px;
   border-radius: 20px;
-  > img {
+
+  >img {
     justify-self: center;
     width: 180px;
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
   }
-  > h4 {
+
+  >h4 {
     margin-top: 20px;
     font-family: "Raleway", sans-serif;
     font-size: 1.25rem;
   }
-  > p {
+
+  >p {
     margin-top: 25px;
     font-style: italic;
     align-self: start;
   }
-  > h5 {
+
+  >h5 {
     margin-top: 25px;
     color: #a89f95;
     font-size: 1.5rem;
   }
-  > a {
+
+  >a {
     margin-top: 20px;
     padding: 10px 30px;
     justify-self: center;
@@ -120,11 +126,11 @@ img {
   display: none;
 }
 
-#show_bread:checked ~ #cheese_section {
+#show_bread:checked~#cheese_section {
   display: grid;
 }
 
-#show_bread:checked ~ #bread_section {
+#show_bread:checked~#bread_section {
   display: none;
 }
 

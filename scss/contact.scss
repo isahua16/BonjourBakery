@@ -34,6 +34,7 @@ main {
     display: grid;
     gap: 18px;
   }
+
   h2 {
     margin-bottom: 24px;
   }
@@ -87,7 +88,8 @@ main {
   border-radius: 20px;
   padding: 30px;
   text-align: center;
-  > a {
+
+  >a {
     text-decoration: none;
     color: #111;
   }
@@ -118,6 +120,7 @@ main {
   #info {
     max-width: 1000px;
   }
+
   #text {
     padding-bottom: 25vh;
   }

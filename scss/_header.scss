@@ -33,20 +33,23 @@
   width: 100%;
   height: 100%;
   grid-template-rows: 10vh auto;
-  transition: transform ease-in-out 0.3s;
-  > label {
+  transition: all ease-in-out 0.3s;
+
+  >label {
     width: 57px;
   }
+
   img {
     align-self: center;
     width: 50px;
   }
-  > nav {
+
+  >nav {
     display: grid;
     place-items: center;
     grid-template-rows: 10vh 10vh 10vh 10vh;
 
-    > a {
+    >a {
       font-weight: 700;
       text-align: center;
       font-size: 1.24rem;
@@ -56,7 +59,7 @@
   }
 }
 
-#menu_open:checked ~ #mobile_menu {
+#menu_open:checked~#mobile_menu {
   transform: translateX(0%) !important;
 }
 
