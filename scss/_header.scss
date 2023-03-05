@@ -35,25 +35,25 @@
   grid-template-rows: 10vh auto;
   transform: translateX(-100vw);
   transition: transform ease-in-out 0.3s;
-}
-> label {
-  width: 57px;
-}
-img {
-  align-self: center;
-  width: 50px;
-}
-> nav {
-  display: grid;
-  place-items: center;
-  grid-template-rows: 10vh 10vh 10vh 10vh;
+  > label {
+    width: 57px;
+  }
+  img {
+    align-self: center;
+    width: 50px;
+  }
+  > nav {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
 
-  > a {
-    font-weight: 700;
-    text-align: center;
-    font-size: 1.24rem;
-    text-decoration: none;
-    color: #fff;
+    > a {
+      font-weight: 700;
+      text-align: center;
+      font-size: 1.24rem;
+      text-decoration: none;
+      color: #fff;
+    }
   }
 }
 

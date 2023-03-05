@@ -50,22 +50,19 @@ body {
   transform: translateX(-100vw);
   transition: transform ease-in-out 0.3s;
 }
-
-> label {
+#mobile_menu > label {
   width: 57px;
 }
-
-img {
+#mobile_menu img {
   align-self: center;
   width: 50px;
 }
-
-> nav {
+#mobile_menu > nav {
   display: grid;
   place-items: center;
   grid-template-rows: 10vh 10vh 10vh 10vh;
 }
-> nav > a {
+#mobile_menu > nav > a {
   font-weight: 700;
   text-align: center;
   font-size: 1.24rem;
