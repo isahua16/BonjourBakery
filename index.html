@@ -1,286 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE" ="edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="*" />
-    <meta name="keywords" content="*" />
-    <meta name="author" content="*" />
-    <meta property="og:url" content="*" />
-    <meta property="og:type" content="*" />
-    <meta property="og:title" content="*" />
-    <meta property="og:description" content="*" />
-    <meta property="og:image" content="*" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Raleway:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel=stylesheet href=/css/style.css />
-    <title>Boulangerie Bonjour Bakery</title>
-  </head>
-  <body>
-    <header id="page_header">
-      <input
-        type="radio"
-        name="menu"
-        id="menu_open"
-        class="menu_radio_button"
-      />
-      <input
-        type="radio"
-        name="menu"
-        id="menu_close"
-        class="menu_radio_button"
-      />
 
-      <a href="/index.html"
-        ><img id="logo" src="/images/logo.png" alt="Bonjour Bakery Logo"
-      /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE"="edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="*" />
+  <meta name="keywords" content="*" />
+  <meta name="author" content="*" />
+  <meta property="og:url" content="*" />
+  <meta property="og:type" content="*" />
+  <meta property="og:title" content="*" />
+  <meta property="og:description" content="*" />
+  <meta property="og:image" content="*" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Raleway:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel=stylesheet href=/css/style.css />
+  <title>Boulangerie Bonjour Bakery</title>
+</head>
 
-      <label class="mobile_menu_btn" for="menu_open">
-        <img id="hamburger" src="/images/menu.svg" alt="Hamburger menu" />
+<body>
+  <header id="page_header">
+    <input type="radio" name="menu" id="menu_open" class="menu_radio_button" />
+    <input type="radio" name="menu" id="menu_close" class="menu_radio_button" />
+
+    <a href="/index.html"><img id="logo" src="/images/logo.png" alt="Bonjour Bakery Logo" /></a>
+
+    <label class="mobile_menu_btn" for="menu_open">
+      <img id="hamburger" src="/images/menu.svg" alt="Hamburger menu" />
+    </label>
+
+    <section id="mobile_menu" style="transform: translateX(-100%);">
+      <label class="mobile_menu_btn" for="menu_close">
+        <img src="/images/x-mark.svg" alt="Button to close the navigation menu" />
       </label>
-
-      <section id="mobile_menu">
-        <label class="mobile_menu_btn" for="menu_close">
-          <img
-            src="/images/x-mark.svg"
-            alt="Button to close the navigation menu"
-          />
-        </label>
-        <nav>
-          <a href="/index.html">HOME</a>
-          <a href="/pages/products.html">PRODUCTS</a>
-          <a href="/pages/about.html">ABOUT</a>
-          <a href="/pages/contact.html">CONTACT</a>
-        </nav>
-      </section>
-    </header>
-
-    <section id="hero">
-      <article id="hero_text">
-        <h3 class="surtitle">WORLD CLASS ARTISAN BREAD & CHEESE</h3>
-        <h1 id="main_title">Baked daily by our bakers with passion</h1>
-        <h2 class="subtitle">
-          <img
-            class="inline_icon"
-            src="/images/map-pin.svg"
-            alt="Address Icon"
-          />9913 - 82 ave NW, Edmonton, AB
-        </h2>
-        <h2 class="subtitle">
-          <img
-            class="inline_icon"
-            src="/images/phone.svg"
-            alt="Phone Icon"
-          />(780) 433-5924
-        </h2>
-        <p>Wednesday to Saturday - 8am - 4pm</p>
-        <p>Sunday to Tuesday - closed</p>
-        <a class="btn" href="/pages/products.html">VIEW PRODUCTS</a>
-      </article>
-      <img
-        id="hero_image"
-        src="images/family2.png"
-        alt="Photo of artisanal baker and owner of Bonjour Bakery Yvan Chartrand"
-      />
+      <nav>
+        <a href="/index.html">HOME</a>
+        <a href="/pages/products.html">PRODUCTS</a>
+        <a href="/pages/about.html">ABOUT</a>
+        <a href="/pages/contact.html">CONTACT</a>
+      </nav>
     </section>
+  </header>
 
-    <section id="breads">
-      <img
-        src="/images/customer.png"
-        alt="Photo of a customer buying our specialty sourdough bread"
-      />
-      <div class="cont_one">
-        <article class="breads_card">
-          <img
-            src="/images/traditional.jpeg"
-            alt="Loaf of our traditional sourdough bread"
-          />
-          <h4>Traditional Sourdough</h4>
-          <p>
-            A great mix of whole-wheat, rye with a touch of white flour for a
-            nutritious crowd pleasing loaf.
-          </p>
-          <h5>$5.80 - $11.50</h5>
-          <a class="basket_btn" href="https://form.jotform.com/210417492536253"
-            >ORDER NOW</a
-          >
-        </article>
-        <article class="breads_card">
-          <img
-            src="/images/harvest.jpeg"
-            alt="Loaf of our best seller sesame-poppy sourdough bread "
-          />
-          <h4>Harvest Grains</h4>
-          <p>
-            Light sourdough loaf with a seven grain mix added for taste and
-            nutrition.
-          </p>
-          <h5>$6.25 - $12.40</h5>
-          <a class="basket_btn" href="https://form.jotform.com/210417492536253"
-            >ORDER NOW</a
-          >
-        </article>
-        <article class="breads_card">
-          <img
-            src="/images/bonjour.jpeg"
-            alt="Our all-time favortie parisian baguettes"
-          />
-          <h4>Bonjour Baguette</h4>
-          <p>
-            A double size real European baguette with a touch of whole-wheat
-            crumb.
-          </p>
-          <h5>$7.25</h5>
-          <a class="basket_btn" href="https://form.jotform.com/210417492536253"
-            >ORDER NOW</a
-          >
-        </article>
-        <article class="breads_card">
-          <img
-            src="/images/country.jpeg"
-            alt="Our signature country rye sourdough bread"
-          />
-          <h4>Country Rye</h4>
-          <p>
-            A 50% rye sourdough bread with a medium firmness crumb. One slice
-            keeps you going quite a while.
-          </p>
-          <h5>$5.50</h5>
-          <a class="basket_btn" href="https://form.jotform.com/210417492536253"
-            >ORDER NOW</a
-          >
-        </article>
-      </div>
-      <a class="btn" href="/pages/products.html">VIEW ALL PRODUCTS</a>
-    </section>
+  <section id="hero">
+    <article id="hero_text">
+      <h3 class="surtitle">WORLD CLASS ARTISAN BREAD & CHEESE</h3>
+      <h1 id="main_title">Baked daily by our bakers with passion</h1>
+      <h2 class="subtitle">
+        <img class="inline_icon" src="/images/map-pin.svg" alt="Address Icon" />9913 - 82 ave NW, Edmonton, AB
+      </h2>
+      <h2 class="subtitle">
+        <img class="inline_icon" src="/images/phone.svg" alt="Phone Icon" />(780) 433-5924
+      </h2>
+      <p>Wednesday to Saturday - 8am - 4pm</p>
+      <p>Sunday to Tuesday - closed</p>
+      <a class="btn" href="/pages/products.html">VIEW PRODUCTS</a>
+    </article>
+    <img id="hero_image" src="images/family2.png"
+      alt="Photo of artisanal baker and owner of Bonjour Bakery Yvan Chartrand" />
+  </section>
 
-    <section id="values">
-      <h2 class="title">Our Values</h2>
-
-      <div class="cont_two">
-        <article class="values_card">
-          <h3 class="subtitle">World Class Breads</h3>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident.
-          </p>
-        </article>
-        <article class="values_card">
-          <h3 class="subtitle">Carefully Sourced</h3>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident.
-          </p>
-        </article>
-        <article class="values_card">
-          <h3 class="subtitle">Dependable Supply</h3>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident.
-          </p>
-        </article>
-      </div>
-      <a class="btn" href="/pages/about.html">OUR STORY</a>
-    </section>
-
-    <section id="cheese">
-      <article id="cheese_text">
-        <h3 class="surtitle">EXTENSIVE SELECTION</h3>
-        <h2 class="title">Enjoy our breads with gourmet cheese</h2>
+  <section id="breads">
+    <img src="/images/customer.png" alt="Photo of a customer buying our specialty sourdough bread" />
+    <div class="cont_one">
+      <article class="breads_card">
+        <img src="/images/traditional.jpeg" alt="Loaf of our traditional sourdough bread" />
+        <h4>Traditional Sourdough</h4>
         <p>
-          We carry over seventy-five kinds of cheese, many made from goat,
-          sheep, or cow's milk from all over the world.
+          A great mix of whole-wheat, rye with a touch of white flour for a
+          nutritious crowd pleasing loaf.
         </p>
-        <div>
-          <h5>
-            <img
-              class="inline_icon"
-              src="/images/check.svg"
-              alt="Icon of a check mark"
-            />
-            Weekly rotating selection
-          </h5>
-          <h5>
-            <img
-              class="inline_icon"
-              src="/images/check.svg"
-              alt="Icon of a check mark"
-            />Pasteurized or raw milk
-          </h5>
-        </div>
-        <a class="btn" href="/pages/products.html">VIEW PRODUCTS</a>
+        <h5>$5.80 - $11.50</h5>
+        <a class="basket_btn" href="https://form.jotform.com/210417492536253">ORDER NOW</a>
       </article>
+      <article class="breads_card">
+        <img src="/images/harvest.jpeg" alt="Loaf of our best seller sesame-poppy sourdough bread " />
+        <h4>Harvest Grains</h4>
+        <p>
+          Light sourdough loaf with a seven grain mix added for taste and
+          nutrition.
+        </p>
+        <h5>$6.25 - $12.40</h5>
+        <a class="basket_btn" href="https://form.jotform.com/210417492536253">ORDER NOW</a>
+      </article>
+      <article class="breads_card">
+        <img src="/images/bonjour.jpeg" alt="Our all-time favortie parisian baguettes" />
+        <h4>Bonjour Baguette</h4>
+        <p>
+          A double size real European baguette with a touch of whole-wheat
+          crumb.
+        </p>
+        <h5>$7.25</h5>
+        <a class="basket_btn" href="https://form.jotform.com/210417492536253">ORDER NOW</a>
+      </article>
+      <article class="breads_card">
+        <img src="/images/country.jpeg" alt="Our signature country rye sourdough bread" />
+        <h4>Country Rye</h4>
+        <p>
+          A 50% rye sourdough bread with a medium firmness crumb. One slice
+          keeps you going quite a while.
+        </p>
+        <h5>$5.50</h5>
+        <a class="basket_btn" href="https://form.jotform.com/210417492536253">ORDER NOW</a>
+      </article>
+    </div>
+    <a class="btn" href="/pages/products.html">VIEW ALL PRODUCTS</a>
+  </section>
 
-      <img
-        id="cheese_image"
-        src="/images/cheese2.png"
-        alt="A photo of an assortment of our rich selection of artisanal cheeses"
-      />
-    </section>
+  <section id="values">
+    <h2 class="title">Our Values</h2>
 
-    <section id="resellers">
-      <h2 class="title">Proud to supply these local eateries</h2>
+    <div class="cont_two">
+      <article class="values_card">
+        <h3 class="subtitle">World Class Breads</h3>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident.
+        </p>
+      </article>
+      <article class="values_card">
+        <h3 class="subtitle">Carefully Sourced</h3>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident.
+        </p>
+      </article>
+      <article class="values_card">
+        <h3 class="subtitle">Dependable Supply</h3>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident.
+        </p>
+      </article>
+    </div>
+    <a class="btn" href="/pages/about.html">OUR STORY</a>
+  </section>
+
+  <section id="cheese">
+    <article id="cheese_text">
+      <h3 class="surtitle">EXTENSIVE SELECTION</h3>
+      <h2 class="title">Enjoy our breads with gourmet cheese</h2>
+      <p>
+        We carry over seventy-five kinds of cheese, many made from goat,
+        sheep, or cow's milk from all over the world.
+      </p>
       <div>
-        <a href="https://underthehighwheel.square.site/" target="_blank">
-          <img
-            src="/images/wheel.png"
-            alt="Restaurant Under the Hight Wheel's logo"
-        /></a>
-        <a href="https://dinenineteen.com/terwillegar/" target="_blank">
-          <img src="/images/nineteen.svg" alt="Restaurant Nineteen's logo"
-        /></a>
-        <a href="https://thecolombian.ca/" target="_blank">
-          <img src="/images/colombian.png" alt="Cafe The Colombian's logo"
-        /></a>
+        <h5>
+          <img class="inline_icon" src="/images/check.svg" alt="Icon of a check mark" />
+          Weekly rotating selection
+        </h5>
+        <h5>
+          <img class="inline_icon" src="/images/check.svg" alt="Icon of a check mark" />Pasteurized or raw milk
+        </h5>
       </div>
       <a class="btn" href="/pages/products.html">VIEW PRODUCTS</a>
-    </section>
+    </article>
 
-    <footer id="page_footer">
-      <img src="/images/logo.png" alt="Bonjour Bakery Logo" />
+    <img id="cheese_image" src="/images/cheese2.png"
+      alt="A photo of an assortment of our rich selection of artisanal cheeses" />
+  </section>
 
-      <div class="cont_three">
-        <a href="/pages/about.html">
-          <div>
-            <h6>ABOUT US</h6>
-            <p>Read our story</p>
-          </div>
-        </a>
-        <a href="/pages/products.html">
-          <div>
-            <h6>ORDER NOW</h6>
-            <p>World-class bread and cheese</p>
-          </div>
-        </a>
-        <a href="/pages/contact.html">
-          <div>
-            <h6>CONTACT US</h6>
-            <p>Visit us or inquire for your restaurant</p>
-          </div>
-        </a>
-      </div>
+  <section id="resellers">
+    <h2 class="title">Proud to supply these local eateries</h2>
+    <div>
+      <a href="https://underthehighwheel.square.site/" target="_blank">
+        <img src="/images/wheel.png" alt="Restaurant Under the Hight Wheel's logo" /></a>
+      <a href="https://dinenineteen.com/terwillegar/" target="_blank">
+        <img src="/images/nineteen.svg" alt="Restaurant Nineteen's logo" /></a>
+      <a href="https://thecolombian.ca/" target="_blank">
+        <img src="/images/colombian.png" alt="Cafe The Colombian's logo" /></a>
+    </div>
+    <a class="btn" href="/pages/products.html">VIEW PRODUCTS</a>
+  </section>
 
-      <a
-        href="https://www.facebook.com/boulangeriebonjouredmonton"
-        target="_blank"
-      >
-        <img
-          id="facebook"
-          src="/images/logo-facebook.svg"
-          alt="Link to access our Facebook account"
-        />
+  <footer id="page_footer">
+    <img src="/images/logo.png" alt="Bonjour Bakery Logo" />
+
+    <div class="cont_three">
+      <a href="/pages/about.html">
+        <div>
+          <h6>ABOUT US</h6>
+          <p>Read our story</p>
+        </div>
       </a>
-      <a id="order" href="/pages/products.html"
-        ><img src="/images/cart.svg" alt="Go to your cart"
-      /></a>
-    </footer>
-  </body>
+      <a href="/pages/products.html">
+        <div>
+          <h6>ORDER NOW</h6>
+          <p>World-class bread and cheese</p>
+        </div>
+      </a>
+      <a href="/pages/contact.html">
+        <div>
+          <h6>CONTACT US</h6>
+          <p>Visit us or inquire for your restaurant</p>
+        </div>
+      </a>
+    </div>
+
+    <a href="https://www.facebook.com/boulangeriebonjouredmonton" target="_blank">
+      <img id="facebook" src="/images/logo-facebook.svg" alt="Link to access our Facebook account" />
+    </a>
+    <a id="order" href="/pages/products.html"><img src="/images/cart.svg" alt="Go to your cart" /></a>
+  </footer>
+</body>
+
 </html>

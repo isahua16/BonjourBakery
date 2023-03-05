@@ -1,171 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Raleway:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel=stylesheet href=/css/contact.css />
-    <title>Contact - Boulangerie Bonjour Bakery</title>
-  </head>
-  <body>
-    <header id="page_header">
-      <input
-        type="radio"
-        name="menu"
-        id="menu_open"
-        class="menu_radio_button"
-      />
-      <input
-        type="radio"
-        name="menu"
-        id="menu_close"
-        class="menu_radio_button"
-      />
 
-      <a href="/index.html"
-        ><img id="logo" src="/images/logo.png" alt="Bonjour Bakery Logo"
-      /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Raleway:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel=stylesheet href=/css/contact.css />
+  <title>Contact - Boulangerie Bonjour Bakery</title>
+</head>
 
-      <label class="mobile_menu_btn" for="menu_open">
-        <img id="hamburger" src="/images/menu.svg" alt="Hamburger menu" />
+<body>
+  <header id="page_header">
+    <input type="radio" name="menu" id="menu_open" class="menu_radio_button" />
+    <input type="radio" name="menu" id="menu_close" class="menu_radio_button" />
+
+    <a href="/index.html"><img id="logo" src="/images/logo.png" alt="Bonjour Bakery Logo" /></a>
+
+    <label class="mobile_menu_btn" for="menu_open">
+      <img id="hamburger" src="/images/menu.svg" alt="Hamburger menu" />
+    </label>
+
+    <section id="mobile_menu" style="transform: translateX(-100%);">
+      <label class="mobile_menu_btn" for="menu_close">
+        <img src="/images/x-mark.svg" alt="Button to close the navigation menu" />
       </label>
-
-      <section id="mobile_menu">
-        <label class="mobile_menu_btn" for="menu_close">
-          <img
-            src="/images/x-mark.svg"
-            alt="Button to close the navigation menu"
-          />
-        </label>
-        <nav>
-          <a href="/index.html">HOME</a>
-          <a href="/pages/products.html">PRODUCTS</a>
-          <a href="/pages/about.html">ABOUT</a>
-          <a href="/pages/contact.html">CONTACT</a>
-        </nav>
-      </section>
-    </header>
-    <main>
-      <section id="contact">
-        <div class="contact_pane">
-          <h2>GET IN TOUCH WITH US</h2>
-          <form action="">
-            <input
-              type="text"
-              name="name"
-              class="form"
-              id="name"
-              placeholder="Enter your name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              class="form"
-              id="email"
-              placeholder="Enter a valid email address"
-              required
-            />
-            <input
-              type="text"
-              name="text"
-              class="form"
-              id="text"
-              placeholder="Enter your message"
-              required
-            />
-            <input id="form_submit" type="submit" value="SUBMIT" />
-          </form>
-        </div>
-        <div class="contact_pane">
-          <h2>WE ARE HERE</h2>
-          <iframe
-            id="g_map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.241490503282!2d-113.48897264804886!3d53.51774386946133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4163a2c327c55193%3A0xee93362656a5b8fc!2sBoulangerie%20Bonjour!5e0!3m2!1sen!2sca!4v1677950311688!5m2!1sen!2sca"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </section>
-
-      <section id="info">
-        <div class="info_pane">
-          <h3>
-            <img
-              class="icon"
-              src="/images/phone.svg"
-              alt="Icon of a smartphone"
-            />
-            CALL US
-          </h3>
-          <a href="tel:7804335924">(780) 433-5924</a>
-        </div>
-        <div class="info_pane">
-          <h3>
-            <img
-              class="icon"
-              src="/images/map-pin.svg"
-              alt="Icon of a map pin"
-            />LOCATION
-          </h3>
-          <p>9913 - 82 ave NW, Edmonton, AB</p>
-        </div>
-        <div class="info_pane">
-          <h3>
-            <img class="icon" src="/images/clock.svg" alt="Icon of a clock" />
-            HOURS
-          </h3>
-          <p>Wed to Sat: 8am - 4pm</p>
-          <p>Sun to Tue: closed</p>
-        </div>
-      </section>
-    </main>
-
-    <footer id="page_footer">
-      <img src="/images/logo.png" alt="Bonjour Bakery Logo" />
-
-      <div class="cont_three">
-        <a href="/pages/about.html">
-          <div>
-            <h6>ABOUT US</h6>
-            <p>Read our story</p>
-          </div>
-        </a>
-        <a href="/pages/products.html">
-          <div>
-            <h6>ORDER NOW</h6>
-            <p>World-class bread and cheese</p>
-          </div>
-        </a>
-        <a href="/pages/contact.html">
-          <div>
-            <h6>CONTACT US</h6>
-            <p>Visit us or inquire for your restaurant</p>
-          </div>
-        </a>
+      <nav>
+        <a href="/index.html">HOME</a>
+        <a href="/pages/products.html">PRODUCTS</a>
+        <a href="/pages/about.html">ABOUT</a>
+        <a href="/pages/contact.html">CONTACT</a>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <section id="contact">
+      <div class="contact_pane">
+        <h2>GET IN TOUCH WITH US</h2>
+        <form action="">
+          <input type="text" name="name" class="form" id="name" placeholder="Enter your name" required />
+          <input type="email" name="email" class="form" id="email" placeholder="Enter a valid email address" required />
+          <input type="text" name="text" class="form" id="text" placeholder="Enter your message" required />
+          <input id="form_submit" type="submit" value="SUBMIT" />
+        </form>
       </div>
+      <div class="contact_pane">
+        <h2>WE ARE HERE</h2>
+        <iframe id="g_map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.241490503282!2d-113.48897264804886!3d53.51774386946133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4163a2c327c55193%3A0xee93362656a5b8fc!2sBoulangerie%20Bonjour!5e0!3m2!1sen!2sca!4v1677950311688!5m2!1sen!2sca"
+          style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
 
-      <a
-        href="https://www.facebook.com/boulangeriebonjouredmonton"
-        target="_blank"
-      >
-        <img
-          id="facebook"
-          src="/images/logo-facebook.svg"
-          alt="Link to access our Facebook account"
-        />
+    <section id="info">
+      <div class="info_pane">
+        <h3>
+          <img class="icon" src="/images/phone.svg" alt="Icon of a smartphone" />
+          CALL US
+        </h3>
+        <a href="tel:7804335924">(780) 433-5924</a>
+      </div>
+      <div class="info_pane">
+        <h3>
+          <img class="icon" src="/images/map-pin.svg" alt="Icon of a map pin" />LOCATION
+        </h3>
+        <p>9913 - 82 ave NW, Edmonton, AB</p>
+      </div>
+      <div class="info_pane">
+        <h3>
+          <img class="icon" src="/images/clock.svg" alt="Icon of a clock" />
+          HOURS
+        </h3>
+        <p>Wed to Sat: 8am - 4pm</p>
+        <p>Sun to Tue: closed</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="page_footer">
+    <img src="/images/logo.png" alt="Bonjour Bakery Logo" />
+
+    <div class="cont_three">
+      <a href="/pages/about.html">
+        <div>
+          <h6>ABOUT US</h6>
+          <p>Read our story</p>
+        </div>
       </a>
-      <a id="order" href="/pages/products.html"
-        ><img src="/images/cart.svg" alt="Go to your cart"
-      /></a>
-    </footer>
-  </body>
+      <a href="/pages/products.html">
+        <div>
+          <h6>ORDER NOW</h6>
+          <p>World-class bread and cheese</p>
+        </div>
+      </a>
+      <a href="/pages/contact.html">
+        <div>
+          <h6>CONTACT US</h6>
+          <p>Visit us or inquire for your restaurant</p>
+        </div>
+      </a>
+    </div>
+
+    <a href="https://www.facebook.com/boulangeriebonjouredmonton" target="_blank">
+      <img id="facebook" src="/images/logo-facebook.svg" alt="Link to access our Facebook account" />
+    </a>
+    <a id="order" href="/pages/products.html"><img src="/images/cart.svg" alt="Go to your cart" /></a>
+  </footer>
+</body>
+
 </html>
