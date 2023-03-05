@@ -208,6 +208,7 @@ img {
 }
 
 #hero_image {
+  width: 100%;
   object-fit: cover;
   object-position: 30% 50%;
   min-height: 400px;
@@ -225,6 +226,7 @@ img {
   padding-bottom: 48px;
 }
 #breads > img {
+  width: 100%;
   object-fit: cover;
   max-height: 50vh;
 }
