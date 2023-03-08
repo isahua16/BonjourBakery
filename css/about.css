@@ -102,8 +102,10 @@ body {
   width: 100%;
   display: grid;
   place-items: center;
-  row-gap: 30px;
   text-align: center;
+}
+.cont_three > * {
+  margin-bottom: 30px;
 }
 .cont_three a {
   cursor: pointer;

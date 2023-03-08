@@ -254,20 +254,20 @@
   background-position: center;
   padding-top: 300px;
   padding-bottom: 68px;
-  row-gap: 30px;
 
   >h2 {
     align-self: end;
     font-size: 1.5rem;
     width: 84%;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   >div {
     width: 40%;
     display: grid;
     place-items: center;
-
+    margin-bottom: 30px;
 
     img {
       width: 100%;
@@ -276,6 +276,7 @@
 
     >a {
       cursor: pointer;
+      margin-bottom: 30px;
     }
   }
 
@@ -294,6 +295,9 @@
   }
 
   #resellers {
+    padding-top: 400px;
+    background-position: center top;
+
     >h2 {
       font-size: 2rem;
     }
@@ -302,16 +306,28 @@
       width: 80%;
       max-width: 600px;
       grid-template-columns: 1fr 1fr 1fr;
+
+      >a {
+        margin-bottom: 0;
+        margin-left: 15px;
+        ;
+      }
     }
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width:795px) {
   #resellers {
-    padding-top: 400px;
-    background-position: center top;
+    min-height: 50vh;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 30vw;
+    background-image: url(/images/bread-bg-landscape.jpeg);
+    background-position: left;
   }
 }
+
+
 
 @media only screen and (min-width: 1000px) {
   #hero {
@@ -332,15 +348,6 @@
     object-fit: cover;
     height: 90%;
     margin: 0;
-  }
-
-  #resellers {
-    min-height: 50vh;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    padding-left: 30vw;
-    background-image: url(/images/bread-bg-landscape.jpeg);
-    background-position: left;
   }
 }
 
