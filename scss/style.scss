@@ -65,6 +65,13 @@
   border-radius: 10px;
 }
 
+.btn:hover,
+.btn:active {
+  background-color: #111;
+  color: white !important;
+  border: 2px #111 solid;
+}
+
 #hero_image {
   width: 100%;
   object-fit: cover;
@@ -99,7 +106,7 @@
   width: 90%;
   display: grid;
   place-items: center;
-  row-gap: 10px;
+  gap: 10px;
   transform: translateY(-50px);
 }
 
@@ -150,6 +157,11 @@
     text-decoration: none;
     background-color: #7f493e;
   }
+}
+
+.basket_btn:hover,
+.basket_btn:active {
+  background-color: #111 !important;
 }
 
 #values {
@@ -283,6 +295,8 @@
     color: #404040;
   }
 }
+
+
 
 @media only screen and (min-width: 654px) {
   .cont_one {

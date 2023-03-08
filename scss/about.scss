@@ -23,6 +23,13 @@ iframe {
   border-radius: 10px;
 }
 
+.btn:hover,
+.btn:active {
+  background-color: #111;
+  color: white !important;
+  border: 2px #111 solid;
+}
+
 #family {
   margin-top: 48px;
   margin-bottom: 180px;

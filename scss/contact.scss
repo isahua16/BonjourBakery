@@ -61,6 +61,14 @@ main {
   border: none;
   padding: 10px;
   border-radius: 20px;
+  border: 2px #111 solid;
+}
+
+#form_submit:hover,
+#form_submit:active {
+  border: 2px #111 solid;
+  background-color: transparent;
+  color: #111;
 }
 
 #g_map {
