@@ -100,7 +100,7 @@
   width: 90%;
   display: grid;
   place-items: center;
-  row-gap: 10px;
+  gap: 10px;
   transform: translateY(-50px);
 }
 
@@ -254,6 +254,7 @@
   background-position: center;
   padding-top: 300px;
   padding-bottom: 68px;
+  row-gap: 30px;
 
   >h2 {
     align-self: end;
@@ -266,7 +267,7 @@
     width: 40%;
     display: grid;
     place-items: center;
-    row-gap: 30px;
+
 
     img {
       width: 100%;

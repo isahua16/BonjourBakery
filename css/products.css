@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 100%;
+  overflow-x: hidden;
   display: grid;
   justify-items: center;
   color: #111;
@@ -102,7 +102,7 @@ body {
   width: 100%;
   display: grid;
   place-items: center;
-  gap: 30px;
+  row-gap: 30px;
   text-align: center;
 }
 .cont_three a {
@@ -200,7 +200,7 @@ body {
   width: 90%;
   display: grid;
   place-items: center;
-  gap: 20px;
+  row-gap: 20px;
   transform: translateY(-50px);
 }
 
