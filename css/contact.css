@@ -236,6 +236,7 @@ main {
   padding: 10px;
   border-radius: 20px;
   border: 2px #111 solid;
+  cursor: pointer;
 }
 
 #form_submit:hover,
