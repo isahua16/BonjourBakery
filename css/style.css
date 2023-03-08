@@ -441,6 +441,7 @@ body {
 #resellers > div img {
   width: 100%;
   max-width: 168px;
+  transition: all cubic-bezier(0.42, 0, 0.58, 0.97) 0.3s;
 }
 #resellers > div > a {
   cursor: pointer;
@@ -448,6 +449,11 @@ body {
 }
 #resellers > a {
   color: #404040;
+}
+
+.restaurant_logo:hover,
+.restaurant_logo:active {
+  transform: scale(1.05);
 }
 
 @media only screen and (min-width: 654px) {
