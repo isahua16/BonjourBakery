@@ -244,6 +244,7 @@ main {
   background-color: transparent;
   border-radius: 20px;
   color: #111;
+  padding: none !important;
 }
 
 #g_map {
