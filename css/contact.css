@@ -242,6 +242,7 @@ main {
 #form_submit:active {
   border: 2px #111 solid;
   background-color: transparent;
+  border-radius: 20px;
   color: #111;
 }
 
