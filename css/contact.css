@@ -230,8 +230,8 @@ main {
   color: white;
   background-color: #111;
   font-weight: 600;
-  width: 50%;
-  height: 50px;
+  width: 40%;
+  height: 60px;
   justify-self: center;
   border-radius: 20px;
   border: 2px #111 solid;
@@ -240,11 +240,8 @@ main {
 
 #form_submit:hover,
 #form_submit:active {
-  border: 2px #111 solid;
   background-color: transparent;
-  border-radius: 20px;
   color: #111;
-  padding: none !important;
 }
 
 #g_map {
