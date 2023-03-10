@@ -12,6 +12,60 @@ body {
   color: #111;
 }
 
+@keyframes carrousel1 {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  38% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes carrousel2 {
+  0% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes carrousel3 {
+  0% {
+    opacity: 0;
+  }
+  61% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 #page_header {
   min-height: 10vh;
   width: 90%;
@@ -383,10 +437,11 @@ body {
 }
 
 #cheese {
-  min-height: 45vh;
+  min-height: 50vh;
   width: 100%;
   display: grid;
   place-items: center;
+  grid-template-rows: 1fr 1fr;
 }
 
 #cheese_text {
@@ -405,11 +460,33 @@ body {
   color: #404040;
 }
 
-#cheese_image {
-  width: 90%;
-  border-radius: 20px;
+.image_container {
+  position: relative;
+  min-height: 400px;
   margin-bottom: 48px;
-  align-self: center;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.cheese_image {
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  width: 90%;
+  object-fit: cover;
+}
+
+.carrousel_img_1 {
+  animation: carrousel3 15s linear infinite;
+}
+
+.carrousel_img_2 {
+  animation: carrousel2 15s linear infinite;
+}
+
+.carrousel_img_3 {
+  animation: carrousel1 15s linear infinite;
 }
 
 #resellers {
@@ -500,11 +577,14 @@ body {
     order: -1;
   }
   #cheese {
+    min-height: 40vh;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .image_container {
+    margin: 0;
   }
   #cheese_image {
-    object-fit: cover;
-    height: 90%;
     margin: 0;
   }
 }

@@ -220,10 +220,11 @@
 }
 
 #cheese {
-  min-height: 45vh;
+  min-height: 50vh;
   width: 100%;
   display: grid;
   place-items: center;
+  grid-template-rows: 1fr 1fr;
 }
 
 #cheese_text {
@@ -246,11 +247,33 @@
   }
 }
 
-#cheese_image {
-  width: 90%;
-  border-radius: 20px;
+.image_container {
+  position: relative;
+  min-height: 400px;
   margin-bottom: 48px;
-  align-self: center;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.cheese_image {
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  width: 90%;
+  object-fit: cover;
+}
+
+.carrousel_img_1 {
+  animation: carrousel3 15s linear infinite;
+}
+
+.carrousel_img_2 {
+  animation: carrousel2 15s linear infinite;
+}
+
+.carrousel_img_3 {
+  animation: carrousel1 15s linear infinite;
 }
 
 #resellers {
@@ -355,13 +378,19 @@
     order: -1;
   }
 
+
+
   #cheese {
+    min-height: 40vh;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .image_container {
+    margin: 0;
   }
 
   #cheese_image {
-    object-fit: cover;
-    height: 90%;
     margin: 0;
   }
 }
