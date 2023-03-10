@@ -14,10 +14,6 @@ body {
 
 @keyframes carrousel1 {
   0% {
-    opacity: 0;
-  }
-
-  3% {
     opacity: 1;
   }
 
@@ -29,8 +25,12 @@ body {
     opacity: 0;
   }
 
-  100% {
+  90% {
     opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
