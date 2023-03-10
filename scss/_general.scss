@@ -12,71 +12,20 @@ body {
   color: #111;
 }
 
-@keyframes carrousel1 {
-  0% {
-    opacity: 1;
-  }
-
-  33% {
-    opacity: 1;
-  }
-
-  38% {
-    opacity: 0;
-  }
-
-  90% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes carrousel2 {
+@keyframes carrousel {
   0% {
     opacity: 0;
   }
 
-  28% {
-    opacity: 0;
-  }
-
-  33% {
+  10% {
     opacity: 1;
   }
 
-  66% {
+  43% {
     opacity: 1;
   }
 
-  71% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes carrousel3 {
-  0% {
-    opacity: 0;
-  }
-
-  61% {
-    opacity: 0;
-  }
-
-  66% {
-    opacity: 1;
-  }
-
-  97% {
-    opacity: 1;
-  }
-
+  50%,
   100% {
     opacity: 0;
   }

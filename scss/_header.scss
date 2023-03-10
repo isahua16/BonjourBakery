@@ -65,13 +65,13 @@
   }
 }
 
-#mobile_menu>label>img:hover,
-#mobile_menu>label>img:active {
+.close_button:hover,
+.close_button:active {
   transform: scale(1.1);
 }
 
-#mobile_menu>nav>a:hover,
-#mobile_menu>nav>a:active {
+.nav_item:hover,
+.nav_item:active {
   transform: scale(1.1);
 }
 

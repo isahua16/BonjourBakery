@@ -265,15 +265,15 @@
 }
 
 .carrousel_img_1 {
-  animation: carrousel3 15s linear infinite;
+  animation: carrousel 10s linear 6.6s infinite;
 }
 
 .carrousel_img_2 {
-  animation: carrousel2 15s linear infinite;
+  animation: carrousel 10s linear 3.3s infinite;
 }
 
 .carrousel_img_3 {
-  animation: carrousel1 15s linear infinite;
+  animation: carrousel 10s linear infinite;
 }
 
 #resellers {
@@ -377,8 +377,6 @@
     min-height: 500px;
     order: -1;
   }
-
-
 
   #cheese {
     min-height: 40vh;

@@ -12,57 +12,17 @@ body {
   color: #111;
 }
 
-@keyframes carrousel1 {
-  0% {
-    opacity: 1;
-  }
-  33% {
-    opacity: 1;
-  }
-  38% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes carrousel2 {
+@keyframes carrousel {
   0% {
     opacity: 0;
   }
-  28% {
-    opacity: 0;
-  }
-  33% {
+  10% {
     opacity: 1;
   }
-  66% {
+  43% {
     opacity: 1;
   }
-  71% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes carrousel3 {
-  0% {
-    opacity: 0;
-  }
-  61% {
-    opacity: 0;
-  }
-  66% {
-    opacity: 1;
-  }
-  97% {
-    opacity: 1;
-  }
-  100% {
+  50%, 100% {
     opacity: 0;
   }
 }
@@ -129,13 +89,13 @@ body {
   transition: all cubic-bezier(0.42, 0, 0.58, 0.97) 0.3s;
 }
 
-#mobile_menu > label > img:hover,
-#mobile_menu > label > img:active {
+.close_button:hover,
+.close_button:active {
   transform: scale(1.1);
 }
 
-#mobile_menu > nav > a:hover,
-#mobile_menu > nav > a:active {
+.nav_item:hover,
+.nav_item:active {
   transform: scale(1.1);
 }
 
@@ -199,8 +159,8 @@ body {
   font-size: 0.875rem;
 }
 
-.cont_three > a:hover,
-.cont_three > a:active {
+.footer_item:hover,
+.footer_item:active {
   transform: scale(1.1);
 }
 
@@ -478,15 +438,15 @@ body {
 }
 
 .carrousel_img_1 {
-  animation: carrousel3 15s linear infinite;
+  animation: carrousel 10s linear 6.6s infinite;
 }
 
 .carrousel_img_2 {
-  animation: carrousel2 15s linear infinite;
+  animation: carrousel 10s linear 3.3s infinite;
 }
 
 .carrousel_img_3 {
-  animation: carrousel1 15s linear infinite;
+  animation: carrousel 10s linear infinite;
 }
 
 #resellers {
