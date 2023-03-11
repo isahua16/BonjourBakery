@@ -34,6 +34,7 @@
 .category {
   display: grid;
   place-items: center;
+  transition: all 0.3s ease-in-out;
 }
 
 #show_cheese:checked~#filter>.cheese {
@@ -117,6 +118,7 @@
     font-weight: 600;
     text-decoration: none;
     background-color: #7f493e;
+    transition: all 0.3s ease-in-out;
   }
 }
 

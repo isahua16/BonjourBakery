@@ -211,6 +211,7 @@ iframe {
   border-style: solid;
   padding: 15px 40px;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover,

@@ -251,6 +251,7 @@ body {
   border-style: solid;
   padding: 15px 40px;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover,
@@ -338,6 +339,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   background-color: #7f493e;
+  transition: all 0.3s ease-in-out;
 }
 
 .basket_btn:hover,

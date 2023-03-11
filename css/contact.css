@@ -250,6 +250,7 @@ main {
   border-radius: 20px;
   border: 2px #111 solid;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 #form_submit:hover,
