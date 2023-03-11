@@ -221,6 +221,11 @@ body {
   font-weight: 600;
 }
 
+.category {
+  display: grid;
+  place-items: center;
+}
+
 #show_cheese:checked ~ #filter > .cheese {
   color: white;
   font-weight: 600;
