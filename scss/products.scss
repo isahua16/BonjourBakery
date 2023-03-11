@@ -17,27 +17,27 @@
 }
 
 #filter {
+  width: 100%;
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px;
 }
 
 #filter>label {
-  width: 200px;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  padding: 10px 30px;
   font-weight: 600;
 }
 
 #show_cheese:checked~#filter>.cheese {
-  padding: 10px 30px;
   color: white;
   font-weight: 600;
   background-color: #7f493e;
 }
 
 #show_bread:checked~#filter>.bread {
-  padding: 10px 30px;
   color: white;
   font-weight: 600;
   background-color: #7f493e;
