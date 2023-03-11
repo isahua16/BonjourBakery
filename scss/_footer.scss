@@ -72,14 +72,21 @@
   border-radius: 30px;
   transition: all cubic-bezier(0.42, 0, 0.58, 0.97) 0.3s;
 
-  >img {
+  svg {
+    stroke: black;
     width: 30px;
+    transition: all cubic-bezier(0.42, 0, 0.58, 0.97) 0.3s;
   }
 }
 
 #order:hover,
 #order:active {
+  background-color: #111;
   transform: scale(1.2);
+
+  svg {
+    stroke: white;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
