@@ -49,7 +49,19 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen></iframe>
   <section id="family">
-    <img id="family_img" src="/images/family.jpeg" alt="Image of the owner's family that run Bonjour Bajery" />
+    <input type="radio" name="lightbox" id="lightbox_open" class="lightbox_radio_button" />
+    <input type="radio" name="lightbox" id="lightbox_close" class="lightbox_radio_button" />
+
+    <label for="lightbox_open">
+      <img class="family_img" src="/images/family.jpeg" alt="Image of the owner's family that run Bonjour Bajery" />
+    </label>
+
+    <div id="lightbox">
+      <label for="lightbox_close">
+        <img class="family_img" src="/images/family.jpeg" alt="Image of the owner's family that run Bonjour Bajery" />
+      </label>
+    </div>
+
     <h1>Quality Bread</h1>
     <div id="family_text">
       <p>

@@ -37,7 +37,14 @@ iframe {
   display: grid;
   justify-items: center;
 
-  >img {
+  >label {
+    width: 100%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+  }
+
+  .family_img {
     border-radius: 20px;
     width: 85%;
   }
@@ -51,6 +58,34 @@ iframe {
   >a {
     color: #404040;
   }
+}
+
+.lightbox_radio_button {
+  display: none;
+}
+
+#lightbox {
+  background-color: #111111d3;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+
+  >label {
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#lightbox_open:checked~#lightbox {
+  display: block;
 }
 
 #family_text {
